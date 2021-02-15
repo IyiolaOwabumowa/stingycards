@@ -1,0 +1,192 @@
+.centerItemSman {
+  display: flex;
+  background-image: url("./assets/sman.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centerItemSwan {
+  display: flex;
+  background-image: url("./assets/swan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.download-link:hover {
+  cursor: pointer;
+}
+.male-block {
+  background-color: #18191a;
+  display: flex;
+
+  width: 50%;
+  height: 100vh;
+}
+
+.female-block {
+  background-color: #242526;
+  width: 50%;
+  height: 100vh;
+}
+
+.cardTempMale {
+  display: flex;
+  background-image: url("./assets/maletemp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.cardTempFemale {
+  display: flex;
+  background-image: url("./assets/femaletemp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.genderBoxMale {
+  background-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.genderBoxMale:hover {
+  /*display: flex;
+  justify-content: center;
+  align-items: center; */
+  cursor: pointer;
+}
+
+.genderBoxMaleClicked {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.genderBoxMaleClicked:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  cursor: pointer;
+}
+
+.genderBoxFemale {
+  background-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ffc0cb90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.genderBoxFemale:hover {
+  /*width: 225px;
+  height: 225px;
+  transition: background-color 2s; */
+  cursor: pointer;
+}
+
+.genderBoxFemaleClicked {
+  background-color: #ffc0cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.genderBoxFemaleClicked:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  cursor: pointer;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.uploadImage {
+  font-weight: 700;
+  margin-top: 10px;
+  color: white;
+  background-color: #221c69;
+  transition: background-color 0.4s;
+  padding: 10px;
+  padding-top: 16px;
+  height: 55px;
+  width: 100%;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.dp-error {
+  margin-top: 300px;
+}
+
+.formBg {
+  background-color: #ffffff90;
+  width: 30%;
+  padding: 50px;
+  border-radius: 5px;
+}
+.formBgMobile {
+  background-color: #ffffff90;
+  width: 100%;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+}
+
+.whatsapp-button:hover {
+  background-color: #25d36610;
+}
+
+/* @media only screen and (min-device-width: 480px) {
+  .genderBox {
+  }
+} */
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("../src/fonts/Axiforma-Heavy.ttf") format("truetype");
+}
